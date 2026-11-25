@@ -1,0 +1,108 @@
+
+body {
+    background-color: #f4f7fc;
+    font-family: Arial, sans-serif;
+    color: #243047;
+}
+
+.navbar {
+    background: #173b70;
+    padding: 16px;
+}
+
+.navbar-brand {
+    font-size: 23px;
+}
+
+h1 {
+    color: #173b70;
+    font-weight: 700;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-header {
+    background: #173b70;
+    color: white;
+    padding: 16px;
+}
+
+.count-card {
+    background: white;
+    border-left: 5px solid #2878dc;
+}
+
+.count-card h2 {
+    color: #2878dc;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.form-control,
+.form-select {
+    padding: 11px;
+    border-radius: 7px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #2878dc;
+    box-shadow: 0 0 0 0.15rem rgba(40, 120, 220, 0.15);
+}
+
+.btn-primary {
+    background: #2878dc;
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: #173b70;
+}
+
+.table {
+    vertical-align: middle;
+}
+
+footer {
+    background: #173b70;
+    color: white;
+    margin-top: 40px;
+}
+
+@media (max-width: 576px) {
+    main.container {
+        padding-top: 25px !important;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+}
+
+/* Action buttons */
+.table td {
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.table .btn {
+    min-width: 65px;
+    margin-bottom: 3px;
+}
+
+/* Responsive participant table */
+.table-responsive {
+    overflow-x: auto;
+}
+
+#cancelEdit {
+    border-radius: 7px;
+    padding: 11px;
+}
+
